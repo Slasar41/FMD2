@@ -1,14 +1,14 @@
 {
   "config" : {
     "default_selected_websites" : "0d3653a8d9b747a381374f32e0a1641e,8e7bd7b38aa041aa9bc1bddeec33b6f4,de4684706931463da794bb45377f4c3e,e9f4e7fe53bc4ff6921db6d67c9b9fb2",
-    "db_url" : "https://raw.githubusercontent.com/dazedcat19/FMD2-DB/master/7z/<website>.7z",
-    "update_url" : "https://raw.githubusercontent.com/dazedcat19/FMD2/master/latest_version.json",
+    "db_url" : "https://raw.githubusercontent.com/Slasar41/FMD2-DB/master/7z/<website>.7z",
+    "update_url" : "https://raw.githubusercontent.com/Slasar41/FMD2/master/latest_version.json",
     "update_package_name" : "updatepackage.7z"
   },
   "GitHub" : {
     "api_url" : "https://api.github.com/",
     "download_url" : "https://raw.githubusercontent.com/",
-    "owner" : "dazedcat19",
+    "owner" : "Slasar41",
     "name" : "FMD2",
     "ref" : "master",
     "path" : "lua"
