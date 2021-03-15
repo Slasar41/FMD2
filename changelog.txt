@@ -4,6 +4,9 @@ https://github.com/Slasar41/FMD
 Changelog:
 ([!] Important, [+] Addition, [-] Removal, [*] Fix/Change, [?] Feedback needed)
 
+2.0.32.0 (16.03.2021)
+[*] Various changes and bug fixes
+
 2.0.31.0 (16.03.2021)
 [*] Various changes and bug fixes
 

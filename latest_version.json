@@ -1,14 +1,14 @@
 {
   "_comment": "automatically build with make_release_win.bat",
   "i386-win32": {
-    "version": "2.0.31.0",
-    "download_url": "https://github.com/Slasar41/FMD2/releases/download/2.0.31.0/fmd_2.0.31.0_i386-win32.7z",
+    "version": "2.0.32.0",
+    "download_url": "https://github.com/Slasar41/FMD2/releases/download/2.0.32.0/fmd_2.0.32.0_i386-win32.7z",
     "changelog_url": "https://raw.githubusercontent.com/Slasar41/FMD2/master/changelog.txt"
   }
   ,
   "x86_64-win64": {
-    "version": "2.0.31.0",
-    "download_url": "https://github.com/Slasar41/FMD2/releases/download/2.0.31.0/fmd_2.0.31.0_x86_64-win64.7z",
+    "version": "2.0.32.0",
+    "download_url": "https://github.com/Slasar41/FMD2/releases/download/2.0.32.0/fmd_2.0.32.0_x86_64-win64.7z",
     "changelog_url": "https://raw.githubusercontent.com/Slasar41/FMD2/master/changelog.txt"
   }
 }
