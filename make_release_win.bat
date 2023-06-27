@@ -7,8 +7,8 @@ SET cdir=%CD%
 SET arg1=%1
 CD /D "%cdir%"
 SET update_file=latest_version.json
-SET repodl=https://github.com/dazedcat19/FMD2/releases/download/
-SET changelog_url=https://raw.githubusercontent.com/dazedcat19/FMD2/master/changelog.txt
+SET repodl=https://github.com/Slasar41/FMD2/releases/download/
+SET changelog_url=https://raw.githubusercontent.com/Slasar41/FMD2/master/changelog.txt
 SET luaver=lua54
 
 ECHO ^{>%update_file%

@@ -24,9 +24,9 @@
     <VersionInfo>
       <UseVersionInfo Value="True"/>
       <MajorVersionNr Value="2"/>
-      <RevisionNr Value="31"/>
+      <RevisionNr Value="32"/>
       <Attributes pvaPrivateBuild="True"/>
-      <StringTable Comments="https://github.com/dazedcat19/FMD" FileDescription="Free Manga Downloader" LegalCopyright="©2015-2021" OriginalFilename="fmd.exe" ProductName="Free Manga Downloader" ProductVersion="$BuildMode()"/>
+      <StringTable Comments="https://github.com/Slasar41/FMD" FileDescription="Free Manga Downloader" LegalCopyright="©2015-2023" OriginalFilename="fmd.exe" ProductName="Free Manga Downloader" ProductVersion="$BuildMode()"/>
     </VersionInfo>
     <BuildModes Count="6">
       <Item1 Name="Win32" Default="True"/>
