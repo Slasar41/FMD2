@@ -11,32 +11,10 @@ function GetNameAndLink()
 	end
 	if not HTTP.GET(MODULE.RootURL .. DirectoryPagination .. s .. '_latest_' .. (URL + 1) .. '.html') then return net_problem end
 	x = CreateTXQuery(HTTP.Document)
-	x.XPathHREFTitleAll('//*[@class="book-right-td"]/a', LINKS, NAMES)
+	x.XPathHREFTitleAll('//*[@class="book-right-td"]/a[1]', LINKS, NAMES)
 	UPDATELIST.CurrentDirectoryPageNumber = tonumber(x.XPathString('//*[@class="page-all-count"]'):match('(%d+) pages')) or 1
 
 	return no_error
-end
-
-function GetNameAndLink1()
-	local s, i, j, x, v
-	if MODULE.CurrentDirectoryIndex == 0 then
-		s = '0-9'
-	else
-		i = MODULE.CurrentDirectoryIndex + 1
-		s = AlphaList:sub(i, i)
-	end
-	if HTTP.GET(MODULE.RootURL .. '/category/' .. s .. '_latest_' .. (URL + 1) .. '.html') then
-		i = 1
-		x = CreateTXQuery(HTTP.Document)
-		for v in x.XPath('//*[@class="page-all-count"]').Get() do
-			j = tonumber(v.ToString()) or 1
-			if j > i then i = j end
-		end
-		UPDATELIST.CurrentDirectoryPageNumber = i
-		x.XPathHREFTitleAll('//*[@class="book-right-td"]/a', LINKS, NAMES)
-	else
-		return net_problem
-	end
 end
 
 function GetInfo()
