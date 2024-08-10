@@ -66,8 +66,8 @@ body:
       description: |
         Is it a scanlation group website?
       options:
-        - No
-        - Yes
+        - "No"
+        - "Yes"
     validations:
       required: true
   - type: textarea
