@@ -20,7 +20,7 @@ body:
     attributes:
       label: Directory list URL
       placeholder: |
-        https://example.com/directory
+        https://example.com/manga-list
     validations:
       required: true
   - type: input
@@ -36,13 +36,14 @@ body:
     attributes:
       label: Example chapter URL
       placeholder: |
-        https://example.com/viewer/title/chapter-1
+        https://example.com/reader/title/chapter-1
     validations:
       required: true
   - type: dropdown
-    id: download
     attributes:
       label: Language
+      description: |
+        If the language is not in the list, select **Other** and write the language in **Additional details** section.
       options:
         - Arabic
         - English
@@ -56,6 +57,17 @@ body:
         - Spanish
         - Turkish
         - Vietnamese
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Scanlation
+      description: |
+        Is it a scanlation group website?
+      options:
+        - No
+        - Yes
     validations:
       required: true
   - type: textarea
